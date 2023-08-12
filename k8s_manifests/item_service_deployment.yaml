@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: item-service
+  name: item-service-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: item-service
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: item-service
+    spec:
+      containers:
+      - image: item_service:local
+        name: item-service
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 9091
+        resources: {}
+status: {}
