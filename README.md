@@ -1,4 +1,4 @@
-# demystifying_ingress
+# Demystifying Ingress
 Supporting code for [Demystifying Kubernetes Ingress blog](https://medium.com/@adrin-mukherjee/demystifying-kubernetes-ingress-b725f9f52ebc)
 
 Contains:
@@ -10,5 +10,6 @@ Contains:
    -   item_service_deployment.yaml
    -   item_service.yaml
    -   ingress-definition.yaml
+4. Extra manifest files representing an Ingress with TLS and name-based virtual hosting
    -   ingress-definition-with-tls.yaml
-   -   
+   -   ingress-definition-with-tls-and-virtual-hosting.yaml
