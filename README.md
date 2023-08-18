@@ -10,3 +10,5 @@ Contains:
    -   item_service_deployment.yaml
    -   item_service.yaml
    -   ingress-definition.yaml
+   -   ingress-definition-with-tls.yaml
+   -   
