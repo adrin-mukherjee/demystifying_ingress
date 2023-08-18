@@ -1,5 +1,5 @@
 # demystifying_ingress
-Supporting code for [Demystifying Kubernetes Ingress blog]()
+Supporting code for [Demystifying Kubernetes Ingress blog](https://medium.com/@adrin-mukherjee/demystifying-kubernetes-ingress-b725f9f52ebc)
 
 Contains:
 1. FastAPI based service named user_service along with Dockerfile for containerization
